@@ -1,9 +1,6 @@
-import React, { useState } from "react";
 import Intro from "./Intro";
 import cls from "./landing.module.css";
 import landing from "../../assets/image-mockups.png";
-import img_desktop from "../../assets/bg-intro-desktop.svg";
-import img_mobile from "../../assets/bg-intro-mobile.svg";
 
 export default function Landind() {
   return (

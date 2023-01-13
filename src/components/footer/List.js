@@ -4,24 +4,24 @@ export default function List() {
     <div className={cls.list}>
       <ul>
         <li>
-          <a href="#">About Us</a>
+          <a href="#about">About Us</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <a href="#blog">Blog</a>
         </li>
       </ul>
       <ul>
         <li>
-          <a href="#">Careers</a>
+          <a href="#careers">Careers</a>
         </li>
         <li>
-          <a href="#">Support</a>
+          <a href="#support">Support</a>
         </li>
         <li>
-          <a href="#">Privacy Policy</a>
+          <a href="#policy">Privacy Policy</a>
         </li>
       </ul>
     </div>

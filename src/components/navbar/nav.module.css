@@ -1,0 +1,36 @@
+.nav{
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+
+}
+.nav > div{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    align-items: center;
+   
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+
+}
+
+.nav ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+.nav > div{
+  
+    padding:0 5px;
+}
+  }

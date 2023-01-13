@@ -1,0 +1,36 @@
+.articals {
+  padding: 90px 0;
+  background: hsl(0, 0%, 98%);
+}
+.articals h1 {
+  margin-bottom: 70px;
+}
+.card {
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  margin: 15px;
+
+}
+.card img {
+  max-width: 100%;
+}
+.info {
+  padding: 10px 20px;
+  line-height: 1.5;
+}
+.info p {
+  color: hsl(233, 8%, 62%);
+}
+.info h3{
+    margin-bottom: 10px;
+}
+.by{
+    margin-top: 10px;
+    font-size: 12px;
+}
+@media (max-width: 767px) {
+  h1{
+    text-align: center;
+  }
+}
